@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/new_border_gray"
+        android:orientation="vertical" >
+        
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="理财产品走势" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3px"
+            android:background="@android:color/holo_orange_light" />
+
+        <LinearLayout
+            android:id="@+id/tendency"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="1"
+                android:text="搜狐证券" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tendency_graph" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/new_border_gray"
+        android:orientation="vertical" >
+        
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="理财产品排行" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3px"
+            android:background="@android:color/holo_orange_light" />
+        
+        <LinearLayout android:id="@+id/title_layout" android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+  android:layout_width="fill_parent" android:layout_height="70sp"
+  android:gravity="center_vertical" android:background="@android:color/holo_orange_light">
+  		<TextView
+		      android:id="@+id/goods"
+
+		      android:layout_width="0dp"
+		      android:layout_height="wrap_content"
+		      android:gravity="center"
+		      android:lines="2"
+		      android:ellipsize="marquee"
+		      android:textColor="@android:color/white"
+		      android:textSize="20dp"
+		      android:text="产品名称"
+		      
+		      android:layout_weight="3" />
+
+		 <View android:layout_width="1dip" android:layout_height="fill_parent" android:background="#FF909090" /> 
+
+		 <TextView
+		     android:id="@+id/source"
+		     android:layout_width="0dp"
+		      android:layout_height="wrap_content"
+
+		     android:text="银行"
+		     android:textColor="@android:color/white"
+		      android:textSize="20dp"
+		     android:layout_weight="1"
+		     android:gravity="center"
+		      android:lines="2"
+		      android:ellipsize="marquee" />
+
+		 <View android:layout_width="1dip" android:layout_height="fill_parent" android:background="#FF909090" />
+
+		 <TextView
+		     android:id="@+id/amount"
+		     android:layout_width="0dp"
+		      android:layout_height="wrap_content"
+		      android:layout_weight="1"
+
+		     android:gravity="center"
+		      android:lines="2"
+		      android:textColor="@android:color/white"
+		      android:textSize="20dp"
+		      android:ellipsize="marquee"
+		     android:text="预期收益率"/>
+
+		 <View android:layout_width="1dip" android:layout_height="fill_parent" android:background="#FF909090" />
+
+		 <TextView
+		     android:id="@+id/date"
+		     android:layout_width="0dp"
+		      android:layout_height="wrap_content"
+		      android:layout_weight="1"
+
+		     android:gravity="center"
+		      android:lines="2"
+		      android:textColor="@android:color/white"
+		      android:textSize="20dp"
+		      android:ellipsize="marquee"
+		     android:text="风险等级" />
+ </LinearLayout>
+
+        <ListView
+            android:id="@+id/ranking_listview"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+        
+    </LinearLayout>
+
+</LinearLayout>

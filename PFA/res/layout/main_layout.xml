@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    android:orientation="vertical"
+    android:scrollbarStyle="insideOverlay" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:background="@drawable/searchbar_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/friend_page_searchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fillet_white_3"
+                android:src="@android:drawable/ic_search_category_default" />
+
+            <EditText
+                android:id="@+id/friend_page_searchContent"
+                android:hint="点击搜索"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/fillet_white_3"
+                android:ems="10" />
+        </LinearLayout>
+	</LinearLayout>
+
+    <!--  <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="开始"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:typeface="serif" /> -->
+
+    <TextView
+        android:id="@+id/financial_frontier_button"
+      
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_blue_bright"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="金融前线" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+	        android:id="@+id/myshopping_button"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="5dp"
+	        android:layout_width="fill_parent"
+	        android:layout_weight="1"
+	        android:layout_height="100dp"
+	        android:background="@android:color/holo_green_light"
+	        android:textColor="@android:color/white"
+	        android:textSize="30dp"
+	        android:gravity="center"
+	        android:text="我的购物" />
+        
+        <TextView
+	        android:id="@+id/finance_tendency_button"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginTop="5dp"
+	        android:layout_width="fill_parent"
+	        android:layout_weight="1"
+	        android:layout_height="100dp"
+	        android:background="@android:color/holo_orange_light"
+	        android:textColor="@android:color/white"
+	        android:textSize="30dp"
+	        android:gravity="center"
+	        android:text="理财走势" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+	        android:id="@+id/info_subscribe_button"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="5dp"
+	        android:layout_width="fill_parent"
+	        android:layout_weight="1"
+	        android:layout_height="100dp"
+	        android:background="@android:color/holo_purple"
+	        android:textColor="@android:color/white"
+	        android:textSize="30dp"
+	        android:gravity="center"
+	        android:text="资讯订阅" />
+        
+        <TextView
+	        android:id="@+id/fund_transfer_button"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginTop="5dp"
+	        android:layout_width="fill_parent"
+	        android:layout_weight="1"
+	        android:layout_height="100dp"
+	        android:background="@android:color/holo_blue_bright"
+	        android:textColor="@android:color/white"
+	        android:textSize="30dp"
+	        android:gravity="center"
+	        android:text="资金转账" />
+
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/personal_financing_button"
+      
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="个性化理财" />
+
+</LinearLayout>

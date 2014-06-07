@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout android:id="@+id/title_layout" android:orientation="horizontal"
+  android:layout_width="fill_parent" android:layout_height="wrap_content"
+  android:gravity="center_horizontal" android:background="@android:color/holo_orange_light">
+  <TextView
+		      android:id="@+id/time"
+		      android:padding="5dip"
+		      android:layout_width="fill_parent"
+		      android:layout_height="wrap_content"
+		      android:gravity="center"
+		      android:singleLine="true"
+		      android:ellipsize="marquee"
+		      android:textColor="@android:color/white"
+		      android:textSize="20dp"
+		      android:text="时间"
+		      
+		      android:layout_weight="1" />
+
+		 <View android:layout_width="1dip" android:layout_height="fill_parent" android:background="#FF909090" /> 
+
+		 <TextView
+		     android:id="@+id/out"
+		     android:layout_width="fill_parent"
+		      android:layout_height="wrap_content"
+		     android:padding="5dip"
+		     android:text="支出"
+		     android:textColor="@android:color/white"
+		      android:textSize="20dp"
+		     android:layout_weight="1"
+		     android:gravity="center"
+		      android:singleLine="true"
+		      android:ellipsize="marquee" />
+
+		 <View android:layout_width="1dip" android:layout_height="fill_parent" android:background="#FF909090" />
+
+		 <TextView
+		     android:id="@+id/in"
+		     android:layout_width="fill_parent"
+		      android:layout_height="wrap_content"
+		      android:layout_weight="1"
+		     android:padding="5dip"
+		     android:gravity="center"
+		      android:singleLine="true"
+		      android:textColor="@android:color/white"
+		      android:textSize="20dp"
+		      android:ellipsize="marquee"
+		     android:text="收入"/>
+
+		 
+ </LinearLayout>
+    <ListView android:id="@+id/table_listView" 
+      android:layout_height="fill_parent"  
+            android:layout_width="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:background="#FFFFFF"/>
+</LinearLayout>

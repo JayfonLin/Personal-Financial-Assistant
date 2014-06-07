@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.personalfinancialassistant"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/name_chinese"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.personalfinancialassistant.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/name_chinese" >
+            
+        </activity>
+        <activity android:name="com.example.personalfinancialassistant.FinanceTendencyActivity"
+            android:screenOrientation="portrait"></activity>        
+        <activity android:name="com.example.personalfinancialassistant.FrontierActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.personalfinancialassistant.FundTransferActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.personalfinancialassistant.InfoSubscribeActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.personalfinancialassistant.LoginActivity"
+            android:icon="@drawable/ic_launcher"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.personalfinancialassistant.MyShoppingActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.personalfinancialassistant.PersonalFinancingActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.personalfinancialassistant.RegisterActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.personalfinancialassistant.ShoppingActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name="com.example.personalfinancialassistant.ShoppingCartActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name="com.example.personalfinancialassistant.ShoppingSubscribeActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name="com.example.personalfinancialassistant.ShoppingTableActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name="com.example.personalfinancialassistant.ShoppingCategoryActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name="com.example.personalfinancialassistant.BudgetActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name="com.example.personalfinancialassistant.TendencyAnalysisActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+    </application>
+
+</manifest>

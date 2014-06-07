@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/setbar_bg"
+        android:orientation="vertical" >
+        
+        <TextView
+	        android:id="@+id/textView1"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginTop="5dp"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@android:color/holo_orange_light"
+	        android:textColor="@android:color/white"
+	        android:textSize="30dp"
+	        android:gravity="center"
+	        android:text="最新金融新闻" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3px"
+            android:background="@android:color/holo_orange_light" />
+
+        <!--  <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:lines="8"
+            android:text="中国大妈投资最爱黄金：首饰是首选 次之为金币
+　沉寂已久的内地珠宝市场出现回暖征兆。
+　　“五一”假期到来，珠宝消费正当时。对比往年，2014年初夏，沉寂已久的内地珠宝市场出现了比较明显的回暖征兆，其中的翡翠交易量大幅度回升，蓝宝石、海蓝宝石、碧玺等新兴珠宝依然旺销。
+　　多数业内人士认为，“五一”前后应是买入高档珠宝的较好时机；同期国际黄金(1283.30, -0.10, -0.01%)价格依然在“熊市”中徘徊，价位较低，也可买入黄金、铂金首饰，长线持有为佳。
+"
+            android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/setbar_bg"
+        android:orientation="vertical" >
+        
+        <TextView
+	        android:id="@+id/textView1"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginTop="5dp"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@android:color/holo_orange_light"
+	        android:textColor="@android:color/white"
+	        android:textSize="30dp"
+	        android:gravity="center"
+	        android:text="最新金融应用产品" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3px"
+            android:background="@android:color/holo_orange_light" />
+
+        <!-- <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:lines="8"
+            android:layout_marginTop="5dp"
+            android:text="陆金所 - 稳盈-安e贷
+ 积木盒子 - 企业经营贷 第二期
+陆金所 - 稳盈-安业贷
+积木盒子 - 购房周转贷
+广发基金 - 广发天天红发起式
+金诚财富 - 无锡灵山希尔顿酒
+金海贷 - 优企贷季季盈系列
+长城信托 - 西安汇成和苑"
+            android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+
+        <ListView
+            android:id="@+id/listView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

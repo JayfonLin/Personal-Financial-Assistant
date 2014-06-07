@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/tendency_graph" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="银行理财产品收益走势分化明显"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/body_textview"
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:scrollbars="vertical"
+        android:text="京华时报讯（记者高晨马文婷）2月份银行理财产品周平均预期收益率持续小幅回落，但分银行类型来看，各类银行发行的理财产品预期收益率走势出现明显分化。
+
+2月份银行理财产品的平均预期收益率较春节前出现明显回落，据银率网数据库统计，截至2月24日，上周（2月16日至22日）非结构性人民币理财产品的平均预期收益率为5.67%，较1月26日至2月1日这一周5.73%的平均预期收益率水平相差0.06个百分点。
+
+整体来看，银行理财产品的平均预期收益率是下降的，但并非所有银行新发理财产品的预期收益率都大幅走低，不同类型银行发行的理财产品收益走势出现明显分化。国有商业银行和农村商业银行新发理财产品的平均预期收益率下滑幅度较大，城市商业银行以及股份制银行新发理财产品的平均预期收益率持续保持高位震荡，下滑幅度相对较小。
+
+银率网数据显示，2月份股份制银行理财产品的周平均预期收益率持续保持在5.8%以上的高位，上周（2月16日至22日）股份制银行发行的非结构性人民币理财产品平均预期收益率高达5.88%，远高于其他类型银行理财产品的平均预期收益率水平。其次为城市商业银行，上周的平均预期收益率为5.77%，较春节前最高收益水平5.92%低0.15个百分点。
+平均预期收益水平最低、较春节前回落幅度最大的是农村商业银行，上周农村商业银行发行的非结构性人民币理财产品的平均预期收益率仅为5.3%，较春节前5.71%的高位相差0.41个百分点。而国有商业银行理财产品的平均预期收益率自1月份起就持续保持回落走势，虽然上周的平均预期收益率出现小幅反弹，也仅为5.46%。
+
+银率网分析师认为，临近月末，银行理财产品平均预期收益率有望小幅回升，尤其是目前收益率水平较低的国有银行以及农商行，可能上升幅度会相对较大，同时各类银行理财产品的平均预期收益率的差距有望缩小。
+
+手中有闲置资金的投资者，可以重点关注大型城商行以及股份制银行发行的高收益理财产品。" />
+
+</LinearLayout>

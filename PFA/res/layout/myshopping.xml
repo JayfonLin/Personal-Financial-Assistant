@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_green_dark"
+    android:orientation="vertical" >
+	<TextView
+        android:id="@+id/financial_frontier_button"
+      
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_blue_bright"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="购物推荐" />
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+        android:id="@+id/myshopping_button"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_green_light"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="购物" />
+        
+        <TextView
+        android:id="@+id/finance_tendency_button"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="支付" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/shopping_cart_textview"
+      
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_purple"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="购物车" />
+</LinearLayout>
